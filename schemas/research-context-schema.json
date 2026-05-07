@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://insifr-founder-mode/schemas/research-context-schema.json",
+  "title": "ResearchContextMetadata",
+  "description": "Machine-readable metadata for NotebookLM / research imports used by routines/import-research.md",
+  "type": "object",
+  "required": ["notebook_id", "sources", "quality_score", "generated_at"],
+  "additionalProperties": true,
+  "properties": {
+    "notebook_id": {
+      "type": "string",
+      "description": "Stable identifier for the research export or notebook"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "type": { "type": "string", "description": "e.g. web, pdf, internal" }
+        }
+      }
+    },
+    "quality_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Normalized quality score (0–1); routines may map to percentage UI"
+    },
+    "artifacts": {
+      "type": "object",
+      "description": "Structured summaries (market, competitive, customer, validation)",
+      "additionalProperties": true
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
