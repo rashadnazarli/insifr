@@ -1,4 +1,4 @@
-# Cursor Agent playbook — insifr-founder-mode
+# Cursor Agent playbook — insifr
 
 Get reliable results from Cursor Agent with this repo.
 
@@ -52,7 +52,7 @@ Example:
 
 ## 5. Cursor rules (optional)
 
-In `.cursor/rules/` in your clone, add habits you always want, e.g.:
+This repo ships a minimal default in `.cursor/rules/insifr-starter.mdc` (small slices, no secrets in chat, verify before “done”). Edit or add rules in `.cursor/rules/` for your team, e.g.:
 
 - Run tests before claiming done.
 - No new dependencies without asking.

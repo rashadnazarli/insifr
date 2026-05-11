@@ -1,0 +1,12 @@
+---
+description: Default habits for insifr Founder Mode starter (small slices, no secrets, verify before done)
+alwaysApply: true
+---
+
+# insifr starter — agent habits
+
+- **Outcomes first:** Use `docs/system/templates/initiative-intake-template.md` for new initiatives when the user has not supplied another template.
+- **Small slices:** One vertical slice per approval cycle unless the user explicitly asks for more scope.
+- **No secrets:** Never ask the user to paste API keys, tokens, or production credentials into chat. Prefer env vars and local `.env` (gitignored).
+- **Verify before “done”:** After non-trivial edits, state how to verify (commands or manual steps). If you cannot run checks, say what the user should run.
+- **Escalate scope:** If the request expands scope or conflicts with prior agreement, stop and ask instead of silently absorbing it.

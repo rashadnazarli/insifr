@@ -6,7 +6,7 @@ description: Apply Founder Mode templates (prompts, routines, docs) to the curre
 
 Copy **prompts**, **routines**, and methodology files from this repo into another project so `/new-feature`, `/new-project`, and related workflows work there.
 
-> **Note:** This workflow does **not** depend on a legacy `scaffold/` folder. Use the **`founder-mode` repo root** (or your **`insifr-founder-mode`** checkout) as the source.
+> **Note:** This workflow does **not** depend on a legacy `scaffold/` folder. Use the **`founder-mode` repo root** (or your **`insifr`** / Founder Mode checkout) as the source.
 
 ## Source directory
 

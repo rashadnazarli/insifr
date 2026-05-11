@@ -1,11 +1,11 @@
-# Personalize insifr-founder-mode
+# Personalize insifr
 
 Make this repo yours — replace generic “insifr” wording in docs if you publish under your own brand.
 
 ## Naming
 
-- Repo name on GitHub can stay `insifr-founder-mode` or match your org.
-- Update `README.md` opening line if you want your product name front and center.
+- The public starter is **[rashadnazarli/insifr](https://github.com/rashadnazarli/insifr)**; you may **fork** it under any repo name.
+- After a fork, update `README.md` links if your clone URL or default branch name differs.
 
 ## Methodology doc
 

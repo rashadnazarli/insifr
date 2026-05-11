@@ -1,4 +1,4 @@
-# Founder Mode methodology (insifr-founder-mode)
+# Founder Mode methodology (insifr)
 
 > Think once at the system level. Let AI execute many times at the feature level.
 
