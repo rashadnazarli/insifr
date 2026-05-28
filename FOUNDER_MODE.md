@@ -2,7 +2,9 @@
 
 > Think once at the system level. Let AI execute many times at the feature level.
 
-This repository packages a **structured product lifecycle**: phased artifacts, quality gates, and prompts/routines you can drive from an AI IDE (for example **Cursor Agent**). Roles below are **conceptual** — one human plus one agent can wear different hats across the lifecycle.
+> **Most projects don't need most of this page.** This is the *deep end* — the full menu of what insifr can do. If you're just starting, read **[START_HERE.md](START_HERE.md)** instead and come back only when a real project calls for more depth. Treat the lifecycle below as an **à-la-carte menu, not a checklist you owe.**
+
+This repository packages a **structured product lifecycle**: phased artifacts, quality gates, and prompts/routines you can drive from any AI coding agent (Claude Code, Cursor, Windsurf, Cline, Aider, …). Roles below are **conceptual** — one human plus one agent can wear different hats across the lifecycle.
 
 ---
 
@@ -77,9 +79,9 @@ Phase 6: ENGINEERING ───────────────────�
 
 ## How to run it (this repo)
 
-### 1. Cursor / IDE agent (default)
+### 1. AI IDE / agent (default)
 
-Use `prompts/`, `routines/`, `docs/system/` (contract + templates), and optionally `@skills/...` from Agent chat. See `CURSOR_AGENT_PLAYBOOK.md`.
+Use `prompts/`, `routines/`, `docs/system/` (contract + templates), and optionally `skills/...` from an agent chat in any AI IDE (Claude Code, Cursor, Windsurf, …). See `AGENT_PLAYBOOK.md`.
 
 ### 2. Optional: multi-agent orchestration tools
 
@@ -167,7 +169,7 @@ A gate checks:
 3. The **product owner** has reviewed and approved critical decisions
 4. Open questions are resolved
 
-**Gates cannot be skipped.** The cost of going back doubles per phase.
+**You choose how many artifacts a phase has** (see Project Modes — a lean run may have just one). Gates apply to **whatever depth you chose**: don't skip the *review* even when the artifact list is short. The point isn't volume — it's that a human signs off before the cost of changing direction grows.
 
 ---
 
@@ -192,8 +194,8 @@ Replace this section in your own notes with a simple table of active initiatives
 
 ## Key Principles
 
-1. **No code before context** — Phases 1–3 produce zero code. Strategy first.
+1. **No code before context** — know what you're building and why before you build it. (On the full path, Phases 1–3 produce this context; on a lean run, a one-line problem statement + acceptance criteria is enough.)
 2. **Think once, execute many** — Define the system once. AI builds within it.
-3. **Quality gates are mandatory** — No skipping. No exceptions.
+3. **Don't skip the review, just the paperwork** — match artifact depth to risk (lean ↔ full), but always run the gate review at the depth you chose.
 4. **Revision protocol** — Flag conflicts, cascade changes, get approval.
 5. **Human decides** — Agents propose and execute within agreed scope; the product owner approves trade-offs.

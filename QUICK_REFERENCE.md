@@ -1,10 +1,12 @@
 # insifr — quick reference
 
-## Cursor-first loop
+New here? Start with **[START_HERE.md](START_HERE.md)**.
 
-1. Agent chat → `@docs/system/founder-mode-agent-operating-contract.md` + `@docs/system/templates/initiative-intake-template.md`
+## Core loop (any agent)
+
+1. Agent chat → reference `docs/system/founder-mode-agent-operating-contract.md` + `docs/system/templates/initiative-intake-template.md`
 2. Plan + acceptance criteria → then code in **small slices**
-3. `@routines/phase-gate.md` before calling a phase done
+3. `routines/phase-gate.md` before calling a phase done
 
 Copy-paste starters: [GETTING_STARTED_PROMPTS.md](GETTING_STARTED_PROMPTS.md).
 

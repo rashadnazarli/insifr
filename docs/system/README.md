@@ -1,6 +1,6 @@
 # Agent defaults (`docs/system`)
 
-Use these with Cursor Agent on **every new initiative**:
+Use these with any AI coding agent on **every new initiative**:
 
 | File | Use |
 |------|-----|
@@ -8,4 +8,4 @@ Use these with Cursor Agent on **every new initiative**:
 | `templates/initiative-intake-template.md` | Goal, KPI, scope, acceptance criteria |
 | `templates/post-initiative-learning-loop.md` | Short retro after a milestone |
 
-Reference them with `@` in Cursor chat.
+Reference them in your agent chat however your tool does it (`@path`, a file picker, or pasting the path).
