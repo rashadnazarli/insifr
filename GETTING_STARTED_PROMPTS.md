@@ -1,8 +1,8 @@
 # Getting started — copy-paste prompts
 
-Use these in a **new Agent chat** after you open this repo as the workspace in Cursor. Attach files with `@` so the model reads them.
+Use these in a **new agent chat** after you open this repo as the workspace in your AI IDE (Claude Code, Cursor, Windsurf, …). Reference files however your tool does it — `@path`, a file picker, or just pasting the path. (This guide writes `@file`; substitute your tool's equivalent.)
 
-For background, read [TEACH_VIBECODING.md](TEACH_VIBECODING.md) and [CURSOR_AGENT_PLAYBOOK.md](CURSOR_AGENT_PLAYBOOK.md).
+For background, read [TEACH_VIBECODING.md](TEACH_VIBECODING.md) and [AGENT_PLAYBOOK.md](AGENT_PLAYBOOK.md).
 
 ---
 

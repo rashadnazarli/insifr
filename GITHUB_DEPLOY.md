@@ -35,4 +35,4 @@ git clone --depth 1 https://github.com/YOUR_USER/insifr.git
 
 ## After clone
 
-Reader order: `README.md` → [GETTING_STARTED_PROMPTS.md](GETTING_STARTED_PROMPTS.md) → `TEACH_VIBECODING.md` → `CURSOR_AGENT_PLAYBOOK.md`, then open in Cursor.
+Reader order: `README.md` → [START_HERE.md](START_HERE.md) → [GETTING_STARTED_PROMPTS.md](GETTING_STARTED_PROMPTS.md) → `TEACH_VIBECODING.md` → `AGENT_PLAYBOOK.md`, then open in your AI IDE.

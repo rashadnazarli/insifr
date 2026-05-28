@@ -13,7 +13,7 @@ Make this repo yours — replace generic “insifr” wording in docs if you pub
 
 ## Routines
 
-Some `routines/` files mention **Windows paths** or old scaffold copy commands (`robocopy`, `c:\...`). For Cursor-first learning, follow `CURSOR_AGENT_PLAYBOOK.md` and ignore those steps unless you deliberately adopt that scaffold.
+Some `routines/` files mention **Windows paths** or old scaffold copy commands (`robocopy`, `c:\...`). For agent-driven learning, follow `AGENT_PLAYBOOK.md` and ignore those steps unless you deliberately adopt that scaffold.
 
 ## Skills
 

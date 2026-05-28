@@ -26,7 +26,7 @@ After non-trivial code: ask where files are; run suggested checks. If something 
 
 ### 4. One chat, multiple hats
 
-In one Cursor thread:
+In one agent thread:
 
 - “Act as PM — tighten scope.”
 - “Act as implementer — write code.”
